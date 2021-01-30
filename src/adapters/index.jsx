@@ -1,5 +1,5 @@
-export const fetchData = () => {
-  const URL = 'https://jsonplaceholder.typicode.com/todos/1';
+export const fetchFakeData = async () => {
+  const URL = 'https://jsonplaceholder.typicode.com/posts';
   const response = await fetch(URL);
   const body = await response.json();
 

@@ -54,11 +54,6 @@ export const Anchor = styled.a`
     width: 70%;
     left: 0;
   }
-
-  @media (max-width: 1000px) {
-    font-size: 1.2rem;
-    display: none !important;
-  }
 `;
 
 export const ButtonLink = styled(ReactRouterLink)`
@@ -80,10 +75,5 @@ export const ButtonLink = styled(ReactRouterLink)`
   &:hover:after {
     width: 70%;
     left: 0;
-  }
-
-  @media (max-width: 1000px) {
-    font-size: 1.2rem;
-    display: none !important;
   }
 `;
