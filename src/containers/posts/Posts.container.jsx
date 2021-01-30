@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext} from 'react';
 import {Post} from '../../components';
 import {IsLoading} from '../../hocs';
 import {DataContext} from '../../context';
